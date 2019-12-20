@@ -1,0 +1,70 @@
+.descripcion {
+	background:rgba(0,0,0,0.5);
+	color:#fff;
+	padding:20px;
+	position:absolute;
+	top:70%; /* distancia hacia el encabezado*/
+	left:50%; /* distancia hacia la izquierda*/
+	transform: translateX(-50%) translateY(-50%)/* traslado de eje x y eje y*/
+	
+}
+
+.descripcion-tit {
+        font-family:Verdana;
+		text-align:center;
+    /* diseño de titulo de descripcion*/
+
+}
+
+.descripcion-p {
+	font-family:Verdana;
+	text-align:center;
+	font-size:25px;
+	/* diseño de parrafo de descripcion*/
+}
+
+a {
+	text-decoration:none;
+	/* quita el subrayado a los links*/
+	color:#fff;
+}
+
+
+  body {
+	/*background-image: url("img/firenze.jpg");*/
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	min-height:100vh;
+	background-attachment:fixed;
+	margin: 0;	
+	
+}
+   body:before {
+      width:100%;
+	  min-height:100vh;
+     position:absolute;
+     top:0;
+	 left:0;
+	 content:"";
+	 background:linear-gradient( #ad55c1, #52c4df);
+	
+	 opacity:0.5;
+   }
+
+
+
+.box {
+    position:center;
+	color:#fff;
+	boder:2px solid;
+	background-color:black;
+	position:absolute;
+	padding-bottom:10%;
+	padding-top:10%;
+	margin-left:40%;
+	margin-right:40%;
+	margin-top:2%;
+	text-align:center;
+	
+}
